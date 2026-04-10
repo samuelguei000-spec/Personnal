@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
+}
+
+/* LOGIN */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+input {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* DASHBOARD */
+.sidebar {
+  width: 220px;
+  background: #1e293b;
+  height: 100vh;
+  position: fixed;
+  padding: 20px;
+}
+
+.sidebar p {
+  margin: 15px 0;
+  cursor: pointer;
+}
+
+.main {
+  margin-left: 220px;
+  padding: 20px;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.notif {
+  font-size: 20px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<div class="sidebar">
+  <h2>Dashboard</h2>
+  <p>Accueil</p>
+  <p>Analytics</p>
+  <p>Messages</p>
+</div>
+
+<div class="main">
+
+  <div class="topbar">
+    <div>
+      <strong id="user"></strong>
+    </div>
+
+    <div class="top-actions">
+      <span class="notif">🔔</span>
+      <img src="https://i.pravatar.cc/40" class="avatar">
+      <button onclick="logout()">Logout</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Revenus</h3>
+    <canvas id="chart"></canvas>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
